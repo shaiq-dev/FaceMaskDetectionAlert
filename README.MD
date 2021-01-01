@@ -25,7 +25,7 @@ $ mkvirtualenv .env
 2. Activate the virtual env and clone the repo
 
 ```
-$ git clone https://github.com/shaiq-dev/Face-Mask-Detection-Alert.git
+$ git clone https://github.com/shaiq-dev/FaceMaskDetectionAlert.git
 ```
 
 3. Change your directory to the cloned repo and install the requirements
