@@ -1,0 +1,1 @@
+from FaceMaskDetectionAlert.FaceMaskDetector import FaceMaskDetector

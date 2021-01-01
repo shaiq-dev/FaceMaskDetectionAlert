@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FaceMask Voilation Alert</title>
+</head>
+
+<body style="margin: 0; padding: 0;">
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="600"
+                    style="border-collapse: collapse; border: 1px solid #cccccc;">
+                    <tr>
+                        <td bgcolor="#ffffff" style="padding: 40px 30px 40px 30px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                style="border-collapse: collapse;">
+                                <tr>
+                                    <td style="color: #dc1818; font-family: Arial, sans-serif;">
+                                        <h1 style="font-size: 24px; margin: 0;">FaceMask Voilation Alert</h1>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 20px 0 30px 0;">
+                                        <p style="margin: 0;">
+                                            Some person('s) have voilated the FaceMask rule and have been
+                                            identified without wearing a mask. The photographs of the person('s) had
+                                            been attached with this email.
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#eff6fc"
+                                        style="color: #0C163B; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 20px 20px 20px 20px;">
+                                        <p style="margin: 0; color:#F95C66;">Timestamp of voilation</p>
+                                        <p style="margin: 0;">Date : {{ data['date'] }}</p>
+                                        <p style="margin: 0;">Time : {{ data['time'] }}</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#ee4c50" style="padding: 30px 30px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                style="border-collapse: collapse;">
+                                <tr>
+                                    <td style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;">
+                                        <p style="margin: 0;">&copy; {{ data['year'] }} Shaiq Kar<br />
+                                            FaceMask Alert System |
+                                            <a href="https://github.com/shaiq-dev" style="color: #ffffff;">
+                                                Github
+                                            </a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
